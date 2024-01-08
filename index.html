@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mobile-container">
+      <div class="topnav">
+        <a href="#home" class="active"
+          ><img src="images/metro-group-logo.png" width="250px" height="70px"
+        /></a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="#careers">Careers</a>
+          <a href="#blog">Blog</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div style="padding-left: 16px">
+        <p class="Customer_portal-title">The Metro Group Customer Portal</p>
+        <div class="Customer_portal-btn">
+          <button class="sign-btn">SIGN IN</button>
+          <button class="learn-btn">LEARN MORE</button>
+          <div><button class="safety-btn">SAFETY DATA SHEET</button></div>
+        </div>
+      </div>
+      <div class="hero-section">
+        <div class="overlay">
+          <p class="hero-section_title">LIMITED TIME OFFER</p>
+          <h2>
+            SAVE 20% <br />
+            ON ANY <br />
+            NEW <br />SERVICE
+          </h2>
+          <p class="hero-section_details">
+            Good for any service <br />provided by The Metro <br />Group not
+            previously <br />
+            purchased for a facility <br />location in the last 2 years.
+            <br />Does not apply to capital <br />
+            purchases, Capital Projects, <br />
+            or Commodity Sales and <br />
+            cannot be combined with <br />
+            any other offer
+          </p>
+          <button class="save-btn">Save Now</button>
+          <div class="emergency">
+            <p>Emergency Boiler, <br />Electrical, and HVAC <br />Service</p>
+          </div>
+        </div>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+
+      <!-- End smartphone / tablet look -->
+    </div>
+  </body>
+</html>
