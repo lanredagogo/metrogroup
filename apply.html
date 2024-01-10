@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/metro-group-logo.png" type="images/png" />
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 30px;
+      }
+      form p {
+        color: black;
+      }
+
+      .radio {
+        color: black;
+      }
+
+      .radio p {
+        margin-bottom: 0px;
+      }
+      label {
+        display: block;
+        color: black;
+      }
+
+      input {
+      }
+
+      .form-header {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mobile-container">
+      <div class="topnav">
+        <a href="index.html" class="active"
+          ><img src="images/metro-group-logo.png" width="250px" height="70px"
+        /></a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="#careers">Careers</a>
+          <a href="#blog">Blog</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!--<div style="padding-left: 16px">-->
+      <!--<p class="Customer_portal-title">The Metro Group Customer Portal</p>-->
+      <div class="apply">
+        <h2 class="Customer_portal-title">
+          "Unlock Your Future: Explore Exciting Job Opportunities! Join Us by
+          Completing the Form and Take the Next Step in Your Career Journey."
+        </h2>
+        <form
+          action="https://formsubmit.co/akinbotelanre2012@gmail.com"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <p class="form-header">Application Form:</p>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://yourdomain.co/pages/thank-you.html"
+          />
+
+          <input type="hidden" name="_subject" value="New email woooah!" />
+          <div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="name"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="tel"
+              id="tel"
+              name="tel"
+              placeholder="Phone Number"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              id="text"
+              name="mailing address"
+              placeholder="Mailing Address"
+              required
+            />
+          </div>
+          <div class="radio">
+            <p>Are you currently employed ?</p>
+            <div class="form-group">
+              <label for="employed"
+                >Yes <input type="radio" id="text" name="employed" required
+              /></label>
+            </div>
+            <div class="form-group">
+              <label for="employed"
+                >No <input type="radio" id="text" name="employed" required
+              /></label>
+            </div>
+          </div>
+          <div>
+            <div class="form-group">
+              <label for="employed"
+                >If "yes" what is your current position ?
+              </label>
+              <input type="text" id="text" name="employed" required />
+            </div>
+          </div>
+          <div>
+            <label>What position are you interested in ?</label>
+            <select name="position-interest" id="postion">
+              <option value="#">--choose an option--</option>
+              <option value="data-entry">Data Entry</option>
+              <option value="customer-service">Customer Service</option>
+              <option value="admin-assist">Administrative Assistant</option>
+              <option value="sales-rep">Sales Representative</option>
+            </select>
+          </div>
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              cols="40"
+              rows="6"
+              placeholder="comment"
+              required
+            ></textarea>
+          </div>
+
+          <div>
+            <button type="submit" value="Submit" class="submit-btn">
+              Submit Now
+            </button>
+          </div>
+        </form>
+        <!--<a href="/apply.html"
+          ><button class="Customer_portal-btn">Submit Now</button></a
+        >-->
+      </div>
+      <!--</div>-->
+      <div class="footer">
+        <div>
+          <h3>Work with Us</h3>
+          <p>
+            One call to the Metro Group will get the job <br />done for all your
+            water treatment, <br />mechanical, elecvtrical, installation and
+            <br />maintainance needs.
+          </p>
+        </div>
+        <div>
+          <h3>Work with Us</h3>
+          <p>
+            One call to the Metro Group will get the job <br />done for all your
+            water treatment, <br />mechanical, elecvtrical, installation and
+            <br />maintainance needs.
+          </p>
+        </div>
+        <div class="location">
+          <h3>Office in New York</h3>
+          <div class="address">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+              fill="#fff"
+            >
+              <path
+                d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"
+              />
+            </svg>
+            <address>
+              50-23 23rd St, <br />Long Island City, <br />Ny 11101
+            </address>
+          </div>
+          <div class="address">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+              fill="#fff"
+            >
+              <path
+                d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"
+              />
+            </svg>
+            (800) 925-4948
+          </div>
+          <div class="our-location">
+            <h3>Our Location</h3>
+            <p>New York Tri-State</p>
+            <p>New England</p>
+            <p>Central-Upstate New York</p>
+            <p>Southeast US</p>
+            <p>South Atlantic US</p>
+            <p>West North Central US</p>
+            <p>East North Central US</p>
+            <p>International</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          2022 &copy; Metro Group Inc <br /><span class="metro-color"
+            >Metro NYC</span
+          >
+          50-23 23rd St, Long Island City, NY, <br />11101,<span
+            class="metro-color"
+            >(718)729-7200</span
+          >
+        </p>
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>

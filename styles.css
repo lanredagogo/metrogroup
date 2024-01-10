@@ -56,12 +56,20 @@
 
     .Customer_portal-title {
         text-align: center;
-        color: black;
+        color:#39a0fb;
+        font-size: 22px;
+        margin-top: 0%;
     }
 
-    .Customer_portal-btn {
+    .apply {
         text-align: center;
-        margin: 10px;
+    }
+
+    
+
+    .apply button {
+        background-color: #39a0fb;
+        
     }
 
     button {
@@ -179,9 +187,7 @@
         font-size: 20px;
         margin-top: ;
     }
-    .download  {
-       
-    }
+    
 
     .app-store img {
         margin-top: -30px;
@@ -283,5 +289,10 @@
     .our-location p {
         margin-bottom: -10px;
     }
+
+    
+
+  
+
 
 }
