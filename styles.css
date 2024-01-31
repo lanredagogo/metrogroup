@@ -216,9 +216,9 @@
 
     
         .video-container {
-            max-width: 800px;
+            max-width: 500px;
             width: 100%;
-            padding: 3em 5em;
+            padding: 3em;
         }
     
         .video {
@@ -238,7 +238,7 @@
     }
 
     .about p {
-        margin-bottom: 1em;
+        margin: 1em;
 
     }
 
