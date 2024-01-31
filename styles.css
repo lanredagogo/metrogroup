@@ -217,9 +217,9 @@
 
     
         .video-container {
-            max-width: 500px;
+            max-width: 550px;
             width: 100%;
-            padding: 2em;
+            padding: 1em;
             
         }
     
@@ -270,8 +270,8 @@
         background-position: center;
         background-color: bisque;
         max-width: 400px;
-        height: 400px;
-        margin: 20px auto;
+        min-height: 400px;
+        margin: 1.1rem;
     }
 
     .our-services-header {
