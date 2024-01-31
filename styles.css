@@ -74,6 +74,7 @@
         color:#39a0fb;
         font-size: 22px;
         margin-top: 0%;
+        padding: 1em;
     }
 
     .apply {
@@ -218,12 +219,14 @@
         .video-container {
             max-width: 500px;
             width: 100%;
-            padding: 3em;
+            padding: 2em;
+            
         }
     
         .video {
             width: 100%;
             height: auto;
+            
             
         }
 
