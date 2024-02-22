@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <link rel="icon" href="images/metro-group-logo.png" type="images/png" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/metro-group-logo.png" type="images/png" />
   </head>
   <body>
     <div class="mobile-container">
@@ -15,8 +14,8 @@
           ><img src="images/metro-group-logo.png" width="250px" height="70px"
         /></a>
         <div id="myLinks">
-          <a href="#news">News</a>
-          <a href="contact.html">Contact</a>
+          <a href="index.html">Home</a>
+          <a href="#contact">Contact</a>
           <a href="#about">About</a>
           <a href="#careers">Careers</a>
           <a href="#blog">Blog</a>
@@ -25,95 +24,45 @@
           <i class="fa fa-bars"></i>
         </a>
       </div>
-
-      <!--<div style="padding-left: 16px">-->
-      <!--<p class="Customer_portal-title">The Metro Group Customer Portal</p>-->
-      <div class="apply__form">
-        <h2 class="">Apply Now</h2>
-        <p class="">
-          Tell us why you'd be a good fit for the role. Please suggest things
-          you'd like to fix or add to our organisation.
-        </p>
-        <form
-          action="https://formsubmit.co/akinbotelanre2012@gmail.com"
-          method="POST"
-          enctype="multipart/form-data"
-        >
-          <p class="form-header">Application Form:</p>
-          <input
-            type="hidden"
-            name="_next"
-            value="https://yourdomain.co/pages/thank-you.html"
-          />
-
-          <input type="hidden" name="_subject" value="New email woooah!" />
-          <div>
-            <input
-              type="name"
-              id="name"
-              name="name"
-              placeholder="Name"
-              required
-            />
+      <div class="contact_us">
+        <div class="contact__call">
+          <h1>Get Answers</h1>
+          <h3>Call or message us today!</h3>
+          <a href="tel:+18009254948">(800) 925-4948</a>
+        </div>
+        <form action="#" class="contact">
+          <div class="contact__form">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" />
           </div>
-          <div>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email"
-              required
-            />
+          <div class="contact__form">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" />
           </div>
-          <div>
-            <p>LinkedIn Profile (optional):</p>
-            <input
-              type="text"
-              id="linkedin"
-              name="linkedin"
-              placeholder="Enter your LinkedIn profile link"
-            />
+          <div class="contact__form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
           </div>
-          <div>
-            <p>What position are you interested in ?</p>
-            <select name="position" id="position">
-              <option value="#">--Please choose an option--</option>
-              <option value="data-entry">Data Entry</option>
-              <option value="customer-service">Customer Service</option>
-              <option value="administrative-assistant">
-                Administrative Assistant
-              </option>
-              <option value="sales-representatives">
-                Sales Representative
-              </option>
-            </select>
+          <div class="contact__form">
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" id="phone-number" name="phone-number" />
           </div>
-          <div>
-            <textarea
-              name="comment"
-              id="comment"
-              cols="30"
-              rows="10"
-              placeholder="Leave a comment...."
-            ></textarea>
+          <div class="contact__form">
+            <label for="about">How'd hear about us ?</label>
+            <input type="text" id="about" name="about" />
           </div>
-
-          <div>
-            <label for="cv">Add Resume</label>
-            <input type="file" name="cv" id="cv" placeholder="ADD Resume" />
-          </div>
-
-          <div>
-            <button type="submit" value="Submit" class="submit-btn">
-              Submit Now
-            </button>
-          </div>
+          <label>Message or Questions</label>
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message or Questions"
+          ></textarea>
+          <div class="contact__submit"><button>Submit Now</button></div>
         </form>
-        <!--<a href="/apply.html"
-          ><button class="Customer_portal-btn">Submit Now</button></a
-        >-->
       </div>
-      <!--</div>-->
+
       <div class="footer">
         <div>
           <h3>Work with Us</h3>
@@ -124,12 +73,13 @@
           </p>
         </div>
         <div>
-          <h3>Work with Us</h3>
-          <p>
-            One call to the Metro Group will get the job <br />done for all your
-            water treatment, <br />mechanical, elecvtrical, installation and
-            <br />maintainance needs.
-          </p>
+          <h3>Our Services</h3>
+          <ul>
+            <li>Recycling</li>
+            <li>Transloading</li>
+            <li>Brokerage</li>
+            <li>Insurance</li>
+          </ul>
         </div>
         <div class="location">
           <h3>Office in New York</h3>
@@ -145,11 +95,9 @@
                 d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"
               />
             </svg>
-            <address>
-              50-23 23rd St, <br />Long Island City, <br />Ny 11101
-            </address>
+            <address>3150 W 900 S <br />Salt Lake City, UT 84104</address>
           </div>
-          <div class="address">
+          <div class="address" id="contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24"
@@ -181,13 +129,11 @@
           2022 &copy; Metro Group Inc <br /><span class="metro-color"
             >Metro NYC</span
           >
-          50-23 23rd St, Long Island City, NY, <br />11101,<span
-            class="metro-color"
-            >(718)729-7200</span
-          >
+          3150 W 900 S Salt Lake City, UT,<br />
+          84104
+          <span class="metro-color">(718)729-7200</span>
         </p>
       </div>
-
       <script>
         function myFunction() {
           var x = document.getElementById("myLinks");
@@ -198,6 +144,8 @@
           }
         }
       </script>
+
+      <!-- End smartphone / tablet look -->
     </div>
   </body>
 </html>
