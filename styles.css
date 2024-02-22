@@ -160,23 +160,23 @@
 
     @keyframes changebackground {
         0%, 100% {
-        background-image: url(images/house4.jpg);
+        background-image: url(images/03c15b1f-ae12-453e-8d36-0edad335df47.jpeg);
         }
 
         25% {
-            background-image: url(images/house5.jpeg);
+            background-image: url(images/13a74e3d-2546-49db-891e-71c0f6ecce55.jpeg);
         }
 
         50% {
-            background-image: url(images/house6.jpg);
+            background-image: url(images/9c6e963c-c584-46f6-a148-1e688c5f3fb4.jpeg);
         }
 
         75% {
-            background-image: url(images/house5.jpeg);
+            background-image: url(images/9db9757a-2712-4309-9425-6e3b14cc30c9.jpeg);
         }
     }
     .overlay {
-        background-color: #333333a2;
+        background-color: #33333398;
        min-height: inherit;
     padding: 1.2em;
         
@@ -231,8 +231,8 @@
         color: blue;
         width: 210px;
         position: absolute;
-        left: 30px;
-        top: 520px;
+        left: 20px;
+        top: 510px;
         font-size: 18px;
        
     }
@@ -311,7 +311,7 @@
         text-align: center;
         font-size: 2rem;
         font-weight: bold;
-        color: blue;
+        color:#0257a2;
         margin: 1em 0px;
         
     }
@@ -324,6 +324,24 @@
         min-height: 400px;
         margin-bottom: 2em;
         
+    }
+
+    .insurance {
+        background-image: url(images/9c6e963c-c584-46f6-a148-1e688c5f3fb4.jpeg);
+        background-size: cover;
+            background-position: center;
+    }
+
+    .brokerage {
+        background-image: url(images/13a74e3d-2546-49db-891e-71c0f6ecce55.jpeg);
+    }
+
+    .transloading {
+        background-image: url(images/03c15b1f-ae12-453e-8d36-0edad335df47.jpeg);
+    }
+
+    .recycling {
+    background-image: url(images/9db9757a-2712-4309-9425-6e3b14cc30c9.jpeg);
     }
 
     .our-services-header {
@@ -339,7 +357,7 @@
     }
 
     .footer{
-        background-color: #351d1da5;
+        background-color:#078afc;
         height: 850px;
     }
 
