@@ -31,17 +31,19 @@
 
     .topnav {
         overflow: hidden;
-        background-color:#0257a2;
+        background-color:#fcfdfd;
         width: 100%;
         position: fixed;
         display: block;
         z-index: 5;
         font-size: 1rem;
+        top: 0px;
         
     }
 
     .topnav #myLinks {
         display: none;
+        background-color: #0257a2;
     }
 
     .topnav a {
@@ -489,6 +491,65 @@
     .contact__submit {
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+    
+    .about__hero {
+        background-image: url(images/03c15b1f-ae12-453e-8d36-0edad335df47.jpeg);
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 10em;
+        color: #070707;
+    }
+
+    .about__hero--title {
+        font-size: 1.1rem;
+        margin-bottom: 0.8em;
+    }
+
+    .about__hero--header {
+        font-size: 3.5rem;
+    }
+
+    .about__us {
+        width: 60%;
+        color: #ffffff;
+        font-weight: 700;
+        padding: 3em 1em;
+    }
+    .about-page{
+        color: black;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 2em;
+    }
+
+    .about__btn {
+        display: flex;
+        justify-content: center;
+        gap: 0.8em;
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+    }
+
+    .about-page ul > li{
+        position: inside;
+    }
+
+    .about__title {
+        font-size: 2rem;
+        color: #0257a2;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .about__description {
+        line-height: 1.5;
+        font-size: 1.1rem;
+    }
+
+    .our__growth {
+        margin: auto;
     }
 
     
