@@ -192,7 +192,7 @@
 
     .hero-section_title {
         font-size: 1.5rem;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     .hero-section_details {
@@ -234,13 +234,13 @@
         width: 210px;
         position: absolute;
         left: 20px;
-        top: 510px;
+        top: 530px;
         font-size: 18px;
        
     }
 
     .emergency p {
-        margin: 10px;
+        margin: 1em;
         line-height: 1.5;
     }
 
@@ -250,7 +250,7 @@
     }
 
     .our-app h3 {
-        padding-top: 3em;
+        padding-top: 3.5em;
         font-size: 2rem;
         text-transform: capitalize;
        
