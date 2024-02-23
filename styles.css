@@ -8,7 +8,7 @@
 
     body {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: clamp (1rem, 2.2vh, 1.5rem);
+        font-size: clamp(1rem, 2.2vh, 1.5rem);
     }
 
     img {
@@ -532,8 +532,9 @@
         margin-bottom: 1.2em;
     }
 
-    .about-page ul > li{
-        position: inside;
+    .about-page ul {
+        list-style-type:circle;
+        list-style-position: inside;
     }
 
     .about__title {
@@ -545,7 +546,7 @@
 
     .about__description {
         line-height: 1.5;
-        font-size: 1.1rem;
+        margin-top: 1em;
     }
 
     .our__growth {
