@@ -539,6 +539,37 @@
         margin: auto;
     }
 
+      details {
+            border-radius: 5px;
+            margin: 1em ;
+        }
+    
+      
+        /*
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 3px;
+           
+        }
+    
+        /* Additional styling for the select dropdown arrow (optional) */
+       /* select::-ms-expand,
+        select::-ms-check {
+            display: none;
+        }
+    
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: url('arrow-down.png') no-repeat right center;
+            /* Replace 'arrow-down.png' with your own image */
+        }
+    */
+
     @media (min-width:600px) {
         .our-services-grid {
             display: grid;
